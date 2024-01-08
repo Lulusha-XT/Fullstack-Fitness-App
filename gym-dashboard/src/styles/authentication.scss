@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+// set up default styling
+:root {
+  --primaryColor: hsl(94, 55%, 56%);
+  --hoverColor: hsl(93, 75%, 76%);
+  --paleGreen: hsl(96, 75%, 89%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --greyText: hsl(0, 0%, 75%);
+  --inputColor: hsl(330, 12%, 97%);
+  // --inputColor: hsl(154, 14%, 90%);
+
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: 0.938rem;
+  --smallFontSize: 0.813rem;
+  --smallestFontSize: 0.75rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+html {
+  font-size: 90%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.formIcon {
+  font-size: var(--h2FontSize);
+  cursor: pointer;
+}
+
+.formMessage {
+  display: none; //we shall how aLL this come to use, be pateint guys :)
+}
+.formShowMessage {
+  display: block;
+  color: var(--whiteColor);
+  padding: 10px;
+  background: rgb(255, 8, 8);
+  border-radius: 3px;
+  text-align: center;
+}
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  color: var(--greyText);
+}
+.btn .icon {
+  margin-left: 0.5rem;
+}
+.btn:hover {
+  color: var(--primaryColor);
+  background: var(--paleGreen);
+}
+
+//Pages stylings
+.loginPage,
+.registerPage {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 7px 50px rgb(214, 223, 213);
+  img,
+  video {
+    height: auto;
+    width: 100%;
+  }
+  .container {
+    height: 90vh;
+    width: 60%;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: hsl(0, 0%, 91%);
+    .videoDiv {
+      position: relative;
+      display: flex;
+      flex-basis: 50%;
+      width: 70%;
+      height: 100%;
+      padding: 0 1.5rem;
+      text-align: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: auto;
+      border-radius: 10px;
+      overflow: hidden;
+      video,
+      .footerDiv {
+        position: absolute;
+      }
+      video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+      .textDiv {
+        position: relative;
+        .title {
+          color: var(--whiteColor);
+          font-size: 35px;
+          font-weight: 800;
+        }
+        p {
+          color: var(--whiteColor);
+          font-size: 1rem;
+          font-weight: 400;
+        }
+      }
+      .footerDiv {
+        bottom: 10px;
+        padding: 0 1rem;
+        height: 60px;
+        background: rgba(255, 255, 255, 0.248);
+        left: 10px;
+        right: 10px;
+        justify-content: space-between;
+        backdrop-filter: blur(1px);
+        border-radius: 10px;
+        .text {
+          color: var(--whiteColor);
+        }
+        .btn {
+          background: var(--whiteColor);
+          color: var(--primaryColor);
+          padding: 0.8rem 1.5rem;
+          border-radius: 10px;
+          font-weight: 400;
+          transition: 0.3s ease;
+          &:hover {
+            background: var (--hoverColor);
+            color: var(--blackColor);
+          }
+        }
+      }
+    }
+    .formDiv {
+      flex-basis: 50%;
+      margin: auto;
+      flex-direction: column;
+      gap: 1.5rem;
+      transform: translateY(-1rem);
+      .headerDiv {
+        text-align: center;
+        padding: 1.5rem 0;
+        img {
+          width: 40px;
+        }
+        h3 {
+          font-size: 24px;
+          color: var(--blackColor);
+          font-weight: 600;
+        }
+      }
+      .form {
+        gap: 1rem;
+        .inputDiv {
+          .icon {
+            color: var(--greyText);
+          }
+          input {
+            background: none;
+            outline: none;
+            border: none;
+            width: 200px;
+          }
+          label {
+            color: var(--blackColor);
+            font-weight: 400;
+            font-size: 14px;
+            padding: 0.5rem 0;
+            display: block;
+          }
+          .input {
+            gap: 0.5rem;
+            padding: 1rem;
+            background: var(--inputColor);
+            border-radius: 10px;
+          }
+        }
+        .btn {
+          padding: 0.8rem;
+          background: var(--primaryColor);
+          border-radius: 10px;
+          color: var(--whiteColor);
+          align-items: center;
+          margin: auto;
+          justify-content: center;
+          font-size: 16px;
+          width: 100%;
+          gap: 0.5rem;
+          transition: 0.3s ease;
+          .icon {
+            font-size: 25px;
+            transition: 0.3s ease;
+          }
+          &:hover {
+            background: var(--hoverColor);
+            color: var(--blackColor);
+            .icon {
+              color: var(--blackColor);
+              transform: translateX(5px);
+            }
+          }
+        }
+        .forgotPassword {
+          font-size: 13px;
+          color: var(--blackColor);
+          opacity: 0.7;
+          text-align: center;
+          a {
+            text-decoration: underline;
+            cursor: pointer;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+//Media Queries ===>
+@media screen and (max-width: 500px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 918px) {
+  .heading {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+// Queries for the Login and register components
+@media screen and (max-width: 602px) {
+  .loginPage,
+  .registerPage {
+    .container {
+      height: 100%;
+      width: 100%;
+      flex-direction: column;
+      padding: 1.5rem;
+      .videoDiv {
+        width: 100%;
+        .textDiv {
+          .title {
+            font-size: 20px;
+          }
+          p {
+            padding: 1rem;
+          }
+        }
+        .footerDiv {
+          .text {
+            font-size: 12px;
+          }
+          .btn {
+            padding: 0.4rem 1.5rem;
+          }
+        }
+      }
+      .formDiv {
+        gap: 1rem;
+        transform: translateY(-0.5rem);
+        .headerDiv {
+          padding: 1rem 0;
+          img {
+            width: 30px;
+          }
+          h3 {
+            font-size: 20px;
+          }
+        }
+        .form {
+          gap: 0.5rem;
+          .inputDiv {
+            input {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// Queries for the Login and register components
+@media screen and (max-width: 678px) {
+  .loginPage,
+  .registerPage {
+    .container {
+      .videoDiv {
+        .textDiv {
+          .title {
+            font-size: 25px;
+          }
+          p {
+            padding: 1rem;
+          }
+        }
+        .footerDiv {
+          .text {
+            font-size: 12px;
+          }
+          .btn {
+            padding: 0.8rem 1.5rem;
+          }
+        }
+      }
+      .formDiv {
+        .headerDiv {
+          padding: 1.5rem 0;
+          img {
+            width: 30px;
+          }
+          h3 {
+            font-size: 20px;
+          }
+        }
+        .form {
+          .inputDiv {
+            input {
+              width: 100%;
+              max-width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// Queries for the Login and register components
+@media screen and (max-width: 927px) {
+  .loginPage,
+  .registerPage {
+    .container {
+      width: 85%;
+    }
+  }
+}
+//Hide scroll bar
+::-webkit-scrollbar {
+  display: none;
+}

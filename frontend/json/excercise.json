@@ -1,0 +1,185 @@
+[
+  {
+    "excercise_category_id": 1,
+    "excercise_category_name": "bicepsExcercise",
+    "excercise_category_thumbnail_path": "assets/static_files/excercises/thumbnail/bst_1.png",
+    "excercise": [
+      {
+        "exercise_id": 1,
+        "exercise_name": "bicepsExcercise1",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bst_1.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/biceps_1.mp4",
+        "exercise_category_id": 1
+      },
+      {
+        "exercise_id": 2,
+        "exercise_name": "bicepsExcercise2",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bst_2.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/biceps_2.mp4",
+        "exercise_category_id": 1
+      },
+      {
+        "exercise_id": 3,
+        "exercise_name": "bicepsExcercise3",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bst_3.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/biceps_3.mp4",
+
+        "exercise_category_id": 1
+      },
+      {
+        "exercise_id": 4,
+        "exercise_name": "bicepsExcercise4",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bst_4.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/biceps_4.mp4",
+        "exercise_category_id": 1
+      }
+    ]
+  },
+  {
+    "excercise_category_id": 2,
+    "excercise_category_name": "chestExcercise",
+    "excercise_category_thumbnail_path": "assets/static_files/excercises/thumbnail/ct_1.png",
+    "excercise": [
+      {
+        "exercise_id": 1,
+        "exercise_name": "chestExcercise1",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/ct_1.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/chest_1.mp4",
+        "exercise_category_id": 2
+      },
+      {
+        "exercise_id": 2,
+        "exercise_name": "chestExcercise2",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/ct_2.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/chest_2.mp4",
+        "exercise_category_id": 2
+      },
+      {
+        "exercise_id": 3,
+        "exercise_name": "chestExcercise3",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/ct_3.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/chest_3.mp4",
+        "exercise_category_id": 2
+      },
+      {
+        "exercise_id": 4,
+        "exercise_name": "chestExcercise4",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/ct_4.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/chest_4.mp4",
+        "exercise_category_id": 2
+      }
+    ]
+  },
+  {
+    "excercise_category_id": 3,
+    "excercise_category_name": "backExcercise",
+    "excercise_category_thumbnail_path": "assets/static_files/excercises/thumbnail/bt_1.png",
+    "excercise": [
+      {
+        "exercise_id": 1,
+        "exercise_name": "backExcercise1",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bt_1.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/back_1.mp4",
+        "exercise_category_id": 3
+      },
+      {
+        "exercise_id": 2,
+        "exercise_name": "backExcercise2",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bt_2.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/back_2.mp4",
+        "exercise_category_id": 3
+      },
+      {
+        "exercise_id": 3,
+        "exercise_name": "backExcercise3",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bt_3.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/back_5.mp4",
+        "exercise_category_id": 3
+      },
+      {
+        "exercise_id": 4,
+        "exercise_name": "backExcercise4",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bt_4.png",
+        "exercise_video_path": "assets/images/excercises/videos/back_5.mp4",
+        "exercise_category_id": 3
+      },
+      {
+        "exercise_id": 5,
+        "exercise_name": "backExcercise5",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/bt_5.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/back_5.mp4",
+        "exercise_category_id": 3
+      }
+    ]
+  },
+  {
+    "excercise_category_id": 4,
+    "excercise_category_name": "shoulderExcercise",
+    "excercise_category_thumbnail_path": "assets/static_files/excercises/thumbnail/st_1.png",
+    "excercise": [
+      {
+        "exercise_id": 1,
+        "exercise_name": "shoulderExcercise1",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/st_1.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/shoulder_1.mp4",
+        "exercise_category_id": 4
+      },
+      {
+        "exercise_id": 2,
+        "exercise_name": "shoulderExcercise2",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/st_2.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/shoulder_2.mp4",
+        "exercise_category_id": 4
+      },
+      {
+        "exercise_id": 3,
+        "exercise_name": "shoulderExcercise3",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/st_3.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/shoulder_3.mp4",
+        "exercise_category_id": 4
+      },
+      {
+        "exercise_id": 4,
+        "exercise_name": "shoulderExcercise4",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/st_4.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/shoulder_4.mp4",
+        "exercise_category_id": 4
+      }
+    ]
+  },
+  {
+    "excercise_category_id": 5,
+    "excercise_category_name": "legExcercise",
+    "excercise_category_thumbnail_path": "assets/static_files/excercises/thumbnail/lt_1.png",
+    "excercise": [
+      {
+        "exercise_id": 1,
+        "exercise_name": "legExcercise1",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/lt_1.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/leg_1.mp4",
+        "exercise_category_id": 5
+      },
+      {
+        "exercise_id": 2,
+        "exercise_name": "legExcercise2",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/lt_2.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/leg_2.mp4",
+        "exercise_category_id": 5
+      },
+      {
+        "exercise_id": 3,
+        "exercise_name": "legExcercise3",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/lt_3.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/leg_3.mp4",
+        "exercise_category_id": 5
+      },
+      {
+        "exercise_id": 4,
+        "exercise_name": "legExcercise4",
+        "exercise_thumbnail": "assets/static_files/excercises/thumbnail/lt_4.png",
+        "exercise_video_path": "assets/static_files/excercises/videos/leg_4.mp4",
+        "exercise_category_id": 5
+      }
+    ]
+  }
+]

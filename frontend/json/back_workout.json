@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Back Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/bt_1.png",
+      "videoUrl": "assets/videos/back_1.mp4"
+    },
+    {
+      "title": "Back Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/bt_2.png",
+      "videoUrl": "assets/videos/back_2.mp4"
+    },
+    {
+      "title": "Back Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/bt_3.png",
+      "videoUrl": "assets/videos/back_5.mp4"
+    },
+    {
+      "title": "Back Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/bt_3.png",
+      "videoUrl": "assets/videos/back_5.mp4"
+    },
+    {
+      "title": "Back Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/bt_5.png",
+      "videoUrl": "assets/videos/back_5.mp4"
+    }
+]

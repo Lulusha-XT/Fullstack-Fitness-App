@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Shoulder Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/lt_1.png",
+      "videoUrl": "assets/videos/leg_1.mp4"
+    },
+    {
+      "title": "Shoulder Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/lt_2.png",
+      "videoUrl": "assets/videos/leg_2.mp4"
+    },
+    {
+      "title": "Shoulder Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/lt_3.png",
+      "videoUrl": "assets/videos/leg_3.mp4"
+    },
+    {
+      "title": "Shoulder Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/lt_4.png",
+      "videoUrl": "assets/videos/leg_4.mp4"
+    }
+]

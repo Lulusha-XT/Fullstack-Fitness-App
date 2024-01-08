@@ -1,0 +1,16 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "database": "fitness_db",
+    "user": "postgres",
+    "password": "tewodros"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "127.0.0.1",
+    "database": "fitness_db_test",
+    "user": "postgres",
+    "password": "tewodros"
+  }
+}

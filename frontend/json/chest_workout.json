@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Chest Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/ct_1.png",
+      "videoUrl": "assets/videos/chest_1.mp4"
+    },
+    {
+      "title": "Chest Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/ct_2.png",
+      "videoUrl": "assets/videos/chest_2.mp4"
+    },
+    {
+      "title": "Chest Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/ct_3.png",
+      "videoUrl": "assets/videos/chest_3.mp4"
+    },
+    {
+      "title": "Chest Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/ct_4.png",
+      "videoUrl": "assets/videos/chest_4.mp4"
+    }
+]

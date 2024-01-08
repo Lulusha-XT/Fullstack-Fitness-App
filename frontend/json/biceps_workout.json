@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Biceps Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/bst_1.png",
+      "videoUrl": "assets/videos/biceps_1.mp4"
+    },
+    {
+      "title": "Biceps Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/bst_2.png",
+      "videoUrl": "assets/videos/biceps_2.mp4"
+    },
+    {
+      "title": "Biceps Workout",
+      "time": "45 seconds",
+      "thumbnail": "assets/images/bst_3.png",
+      "videoUrl": "assets/videos/biceps_3.mp4"
+    },
+    {
+      "title": "Biceps Workout",
+      "time": "55 seconds",
+      "thumbnail": "assets/images/bst_4.png",
+      "videoUrl": "assets/videos/biceps_4.mp4"
+    }
+]
